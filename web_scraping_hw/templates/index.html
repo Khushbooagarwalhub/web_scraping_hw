@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head> 
 
-<body>
-    <div class="container-fluid">
+<body style="background:blanchedalmond">
+    <div class="container-fluid" style="background:blanchedalmond;">
       <div class="jumbotron text-center">
-        <h1>MISSION TO MARS</h1>
+        <h1 style="color: maroon">MISSION TO MARS</h1>
         <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">SCRAPE NEW DATA</a></p>
       </div>
     </div>
@@ -29,6 +29,7 @@
     </div>
     <style>
         .borderedbox{border: 1px solid black; padding: 1em;}
+         
     </style>
     <div class = "container">
             <div class = "row">
@@ -48,6 +49,7 @@
                     </div>
                     <div class = "col-md-12">
                             <h3 >Mars Facts</h3>
+                            
                             <p>{{mars.facts | safe}}</p>
                     </div>
                 </div>
